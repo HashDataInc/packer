@@ -225,7 +225,7 @@ export default [
       { category: 'parallels', content: ['iso', 'pvm'] },
       'profitbricks',
       { category: 'proxmox', content: ['iso', 'clone'] },
-      'qemu',
+      { category: 'qemu', content: ['qemu', 'chroot'] },
       'scaleway',
       'tencentcloud-cvm',
       'jdcloud',

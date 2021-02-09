@@ -1,5 +1,7 @@
 module github.com/hashicorp/packer
 
+replace github.com/DATA-DOG/godog => github.com/cucumber/godog v0.10.0
+
 require (
 	cloud.google.com/go v0.66.0
 	github.com/1and1/oneandone-cloudserver-sdk-go v1.0.1
@@ -84,6 +86,7 @@ require (
 	github.com/xanzy/go-cloudstack v0.0.0-20190526095453-42f262b63ed0
 	github.com/yandex-cloud/go-genproto v0.0.0-20200915125933-33de72a328bd
 	github.com/yandex-cloud/go-sdk v0.0.0-20200921111412-ef15ded2014c
+	github.com/yunify/qingcloud-sdk-go v0.0.0-20201231093200-68a2166bd7e3
 	github.com/zclconf/go-cty v1.7.0
 	github.com/zclconf/go-cty-yaml v1.0.1
 	golang.org/x/crypto v0.0.0-20201208171446-5f87f3452ae9
@@ -95,6 +98,7 @@ require (
 	golang.org/x/tools v0.0.0-20201111133315-69daaf961d65
 	google.golang.org/api v0.32.0
 	google.golang.org/grpc v1.32.0
+	gopkg.in/asaskevich/govalidator.v8 v8.0.0-20171111151018-521b25f4b05f
 )
 
 go 1.13

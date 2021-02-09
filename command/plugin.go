@@ -53,6 +53,7 @@ import (
 	proxmoxisobuilder "github.com/hashicorp/packer/builder/proxmox/iso"
 	qemubuilder "github.com/hashicorp/packer/builder/qemu"
 	qemuchrootbuilder "github.com/hashicorp/packer/builder/qemu/chroot"
+	qingcloudbuilder "github.com/hashicorp/packer/builder/qingcloud"
 	scalewaybuilder "github.com/hashicorp/packer/builder/scaleway"
 	tencentcloudcvmbuilder "github.com/hashicorp/packer/builder/tencentcloud/cvm"
 	tritonbuilder "github.com/hashicorp/packer/builder/triton"
@@ -153,6 +154,7 @@ var Builders = map[string]packersdk.Builder{
 	"proxmox-iso":         new(proxmoxisobuilder.Builder),
 	"qemu":                new(qemubuilder.Builder),
 	"qemu-chroot":         new(qemuchrootbuilder.Builder),
+	"qingcloud":           new(qingcloudbuilder.Builder),
 	"scaleway":            new(scalewaybuilder.Builder),
 	"tencentcloud-cvm":    new(tencentcloudcvmbuilder.Builder),
 	"triton":              new(tritonbuilder.Builder),
